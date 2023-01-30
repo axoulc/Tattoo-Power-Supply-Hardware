@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 15473372-c261-415b-a9a2-72be8e4bcd90)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "I2C{I2C}" (shape bidirectional) (at 181.61 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2613a51d-b2f5-4764-8166-49043d0cdb11)
+  )
+  (hierarchical_label "V_{USB}" (shape output) (at 181.61 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 91be1eb8-88ae-4c0b-b2fe-ad270b5330a9)
+  )
+)
