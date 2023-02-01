@@ -1480,7 +1480,7 @@
     (uuid fd956515-cac6-47da-8d49-01b86c1c90ce)
   )
 
-  (text "AN2867 :\nECS-80-18-5PX-TR\nNX5032GA-8.000M-STD-CSU-1 BEST\n"
+  (text "AN2867 :\nABM3B-8.000MHZ-B2-T\nC_{L}=18pF\nC_{S}=10pF\nC_{L}-C_{S}=(C_{L1}*\n"
     (at 21.59 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab80359c-8b9a-4e36-9508-c4d49c162ac6)
