@@ -78,11 +78,11 @@
     )
   )
 
-  (bus_alias "UART" (members "Tx" "Rx"))
-  (bus_alias "USB2" (members "D+" "D-"))
-  (bus_alias "Encoder" (members "DT" "CLK" "SW"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
   (bus_alias "SPI" (members "~{CS}" "SCK" "MOSI" "MISO"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "Encoder" (members "DT" "CLK" "SW"))
+  (bus_alias "USB2" (members "D+" "D-"))
+  (bus_alias "UART" (members "Tx" "Rx"))
 
   (symbol (lib_id "Connector:Jack-DC") (at 54.61 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
@@ -373,6 +373,9 @@
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/69cdcc3a-71ff-4d22-b373-8d0bfabffda2"
       (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/742a8052-c29e-4381-87cf-b0228af90d4d"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/bcc3352c-a803-4a6a-832b-8cf68c9698e4"
       (reference "R?") (unit 1) (value "DNP") (footprint "")
