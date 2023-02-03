@@ -78,11 +78,11 @@
     )
   )
 
-  (bus_alias "SPI" (members "~{CS}" "SCK" "MOSI" "MISO"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
-  (bus_alias "Encoder" (members "DT" "CLK" "SW"))
-  (bus_alias "USB2" (members "D+" "D-"))
   (bus_alias "UART" (members "Tx" "Rx"))
+  (bus_alias "USB2" (members "D+" "D-"))
+  (bus_alias "Encoder" (members "DT" "CLK" "SW"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "SPI" (members "~{CS}" "SCK" "MOSI" "MISO"))
 
   (symbol (lib_id "Connector:Jack-DC") (at 54.61 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
@@ -230,6 +230,9 @@
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/43a54d51-ece1-46ed-921f-01c7ff1bc4a5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/50284b05-6e02-40f9-b483-7583d6b2aae0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/6e2f87e8-4322-4c83-993d-abf7d7702da7"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -237,6 +240,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/739a57d0-cd48-4cfe-b3e1-84199a8baf62"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/77b63d23-f170-48cc-a46d-23cf019b78ad"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/92e2621e-1d94-4672-aa9c-724bd8707c89"
@@ -287,8 +293,11 @@
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/50a776f3-c84e-45f3-bdc5-88ccb16d4fa8"
       (reference "C?") (unit 1) (value "10n") (footprint "")
     )
+    (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/56e5b6f7-f73d-474d-927a-f2ccdb35c234"
+      (reference "C?") (unit 1) (value "470u/35V") (footprint "")
+    )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/59aca0d5-fb73-446c-8044-31b5ea1b27e3"
-      (reference "C?") (unit 1) (value "100u") (footprint "")
+      (reference "C?") (unit 1) (value "100u/35V") (footprint "")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/63fc3922-5575-4797-a8b4-026434bbdba2"
       (reference "C?") (unit 1) (value "20p") (footprint "")
@@ -303,7 +312,10 @@
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/c91fc11c-ab73-413f-9ad8-e9aebe7918a4"
-      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+      (reference "C?") (unit 1) (value "470u/35V") (footprint "")
+    )
+    (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/dc27a435-1b71-49b5-90fc-3605368f8a1a"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/f0dc52c5-f269-4d09-a7b2-26fb46b43ef8"
       (reference "C?") (unit 1) (value "100n") (footprint "")
@@ -312,7 +324,7 @@
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/542b5997-5523-4b73-a962-b550c1a2d61d"
-      (reference "D?") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D?") (unit 1) (value "PMEG4050EP,115") (footprint "Diode_SMD:D_SOD-128")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/d670595f-34bd-4ceb-bf89-2138a4aee6df"
       (reference "FB?") (unit 1) (value "FerriteBead") (footprint "")
@@ -342,13 +354,13 @@
       (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/0a870a79-4320-460f-afd7-5b8aa7b0105a"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "8.45k") (footprint "")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/26955c41-e7d9-4961-9392-497c6b906013"
       (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/36c6f7fa-62ee-4a9e-b28b-a99c104b8804"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "1.65k") (footprint "")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/4afe15cf-e0e5-4313-8eae-78b1b4f1bd7c"
       (reference "R?") (unit 1) (value "10k") (footprint "")
@@ -360,7 +372,7 @@
       (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d/69cdcc3a-71ff-4d22-b373-8d0bfabffda2"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "1k") (footprint "")
     )
     (path "/fd65dc63-1d27-4821-ae4f-326fe3a44815/bcc3352c-a803-4a6a-832b-8cf68c9698e4"
       (reference "R?") (unit 1) (value "DNP") (footprint "")
