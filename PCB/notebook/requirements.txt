@@ -1,0 +1,5 @@
+numpy
+matplotlib
+scipy
+simpy
+latexify-py
