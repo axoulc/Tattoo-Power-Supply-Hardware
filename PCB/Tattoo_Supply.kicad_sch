@@ -78,11 +78,11 @@
     )
   )
 
-  (bus_alias "USB2" (members "D+" "D-"))
-  (bus_alias "UART" (members "Tx" "Rx"))
-  (bus_alias "Encoder" (members "DT" "CLK" "SW"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
   (bus_alias "SPI" (members "~{CS}" "SCK" "MOSI" "MISO"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "Encoder" (members "DT" "CLK" "SW"))
+  (bus_alias "UART" (members "Tx" "Rx"))
+  (bus_alias "USB2" (members "D+" "D-"))
 
   (symbol (lib_id "Connector:Jack-DC") (at 54.61 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
