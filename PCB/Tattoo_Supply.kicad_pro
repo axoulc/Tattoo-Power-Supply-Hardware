@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -244,7 +244,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "TattooSupplyLib"
+    ]
   },
   "meta": {
     "filename": "Tattoo_Supply.kicad_pro",
@@ -342,16 +344,20 @@
       "USB C Power Delivery"
     ],
     [
-      "b5c4aa42-77c2-4f09-bef2-9f757b53dc88",
-      "LDO"
-    ],
-    [
       "fd65dc63-1d27-4821-ae4f-326fe3a44815",
       "MCU"
     ],
     [
       "ceea0ffd-34e8-4863-a5ab-807ee81bbc9d",
       "SMPS"
+    ],
+    [
+      "dbf96053-22e5-4a99-a7e7-291de2fa9a8f",
+      "MCU DCDC"
+    ],
+    [
+      "35c23473-ced5-4351-b10b-ff300d1253ee",
+      "Out Power Control"
     ]
   ],
   "text_variables": {}
