@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 88193b7e-57f4-43e5-927b-8c5b9f217255)
 
@@ -8,11 +8,11 @@
   )
 
 
-  (hierarchical_label "V_{OUT}" (shape output) (at 173.99 81.28 0)
+  (hierarchical_label "V_{OUT}" (shape output) (at 173.99 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1704a855-018c-4556-88b0-f913ab0f1b71)
   )
-  (hierarchical_label "V_{IN}" (shape input) (at 105.41 81.28 180)
+  (hierarchical_label "V_{IN}" (shape input) (at 105.41 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dcc393ab-a1f8-4b84-91be-ee52c31889d3)
   )
