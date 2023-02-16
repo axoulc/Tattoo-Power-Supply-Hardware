@@ -344,6 +344,10 @@
       "USB C Power Delivery"
     ],
     [
+      "0bfe1b8d-2b80-49bc-95c3-66c860b9d04a",
+      "SMPS1"
+    ],
+    [
       "fd65dc63-1d27-4821-ae4f-326fe3a44815",
       "MCU"
     ],
@@ -358,6 +362,14 @@
     [
       "35c23473-ced5-4351-b10b-ff300d1253ee",
       "Out Power Control"
+    ],
+    [
+      "9f555ace-da32-4118-b59a-cfcb78baf4ed",
+      "DAC"
+    ],
+    [
+      "efc91527-f971-405b-8984-70ef7ae6d38c",
+      "Out Power Control1"
     ]
   ],
   "text_variables": {}

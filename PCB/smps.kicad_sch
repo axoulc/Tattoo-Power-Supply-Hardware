@@ -558,6 +558,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "R?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "R4") (unit 1)
+        )
       )
     )
   )
@@ -582,6 +585,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -608,6 +614,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "R?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -638,6 +647,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "U?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "U2") (unit 1)
+        )
       )
     )
   )
@@ -662,6 +674,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -689,6 +704,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "D?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "D3") (unit 1)
+        )
       )
     )
   )
@@ -714,6 +732,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "C?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -741,6 +762,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "C?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "C6") (unit 1)
+        )
       )
     )
   )
@@ -767,6 +791,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "R?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "R5") (unit 1)
+        )
       )
     )
   )
@@ -791,6 +818,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -817,6 +847,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR019") (unit 1)
+        )
       )
     )
   )
@@ -841,6 +874,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -868,6 +904,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "L?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "L2") (unit 1)
+        )
       )
     )
   )
@@ -893,6 +932,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR017") (unit 1)
+        )
       )
     )
   )
@@ -917,6 +959,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "#PWR?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -944,6 +989,9 @@
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "C?") (unit 1)
         )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "C7") (unit 1)
+        )
       )
     )
   )
@@ -969,6 +1017,9 @@
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
           (reference "C?") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+          (reference "C9") (unit 1)
         )
       )
     )
