@@ -493,6 +493,10 @@
     (stroke (width 0) (type default))
     (uuid 3ea73cc6-2c3e-4eec-bc45-565bc00cd123)
   )
+  (wire (pts (xy 149.86 106.68) (xy 157.48 106.68))
+    (stroke (width 0) (type default))
+    (uuid 3eb0a8fa-b647-4335-aa9f-118cdee9a552)
+  )
   (wire (pts (xy 116.84 93.98) (xy 116.84 96.52))
     (stroke (width 0) (type default))
     (uuid 443e39a1-5a17-4752-9b7d-db19a0f2c85d)
@@ -512,10 +516,6 @@
   (wire (pts (xy 101.6 83.82) (xy 101.6 85.09))
     (stroke (width 0) (type default))
     (uuid 60963a43-87d2-46b4-b14c-66fff7a24c9c)
-  )
-  (wire (pts (xy 134.62 106.68) (xy 157.48 106.68))
-    (stroke (width 0) (type default))
-    (uuid 843350fe-06d8-4050-91db-595680ff0166)
   )
   (wire (pts (xy 116.84 118.11) (xy 119.38 118.11))
     (stroke (width 0) (type default))
@@ -589,6 +589,10 @@
     (stroke (width 0) (type default))
     (uuid eb06b295-44a8-4fbd-8340-13f03e1b00fc)
   )
+  (wire (pts (xy 134.62 106.68) (xy 142.24 106.68))
+    (stroke (width 0) (type default))
+    (uuid f96dfa7f-965d-4d0f-b3b8-0d34e960cadf)
+  )
 
   (text_box "V_{MAX} = 30V\nFor V_{ADC} = 3.3V\n\nRh = 13.3k\nRl = 1.62k\n\nFor C = 1u\nf_{ADC}=1/(2*pi*(Rh//Rl)*1e-6) = 110 Hz"
     (at 60.96 80.01 0) (size 34.29 19.05)
@@ -618,7 +622,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 132.08 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f6ed59f-2bda-46d9-adee-4b379bacdc8d)
-    (property "Reference" "Q?" (at 138.43 117.475 0)
+    (property "Reference" "Q3" (at 138.43 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002" (at 138.43 120.015 0)
@@ -636,10 +640,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "Q?") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "Q1") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -648,7 +652,7 @@
   (symbol (lib_id "Device:R") (at 101.6 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16d765ca-126c-44ef-a13d-b958bbf5949c)
-    (property "Reference" "R?" (at 104.14 89.535 0)
+    (property "Reference" "R33" (at 104.14 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.62k" (at 104.14 92.075 0)
@@ -665,10 +669,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "R?") (unit 1)
+          (reference "R33") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "R8") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -677,7 +681,7 @@
   (symbol (lib_id "power:GND") (at 134.62 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35bf1cfa-5098-43a4-8751-acd32dc9d4ec)
-    (property "Reference" "#PWR?" (at 134.62 135.89 0)
+    (property "Reference" "#PWR061" (at 134.62 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 134.62 0)
@@ -693,10 +697,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -705,7 +709,7 @@
   (symbol (lib_id "power:GND") (at 153.67 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41d1b294-4de7-4538-9030-2b0e53f98249)
-    (property "Reference" "#PWR?" (at 153.67 135.89 0)
+    (property "Reference" "#PWR062" (at 153.67 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 134.62 0)
@@ -721,10 +725,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -733,7 +737,7 @@
   (symbol (lib_id "Device:R") (at 119.38 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45f2e90d-976b-4779-84ac-c0658444bc1f)
-    (property "Reference" "R?" (at 121.92 123.825 0)
+    (property "Reference" "R35" (at 121.92 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 121.92 126.365 0)
@@ -750,10 +754,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "R?") (unit 1)
+          (reference "R35") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "R10") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -762,7 +766,7 @@
   (symbol (lib_id "power:GND") (at 119.38 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6be39ca5-e171-47f2-8d45-3d1514cd94ad)
-    (property "Reference" "#PWR?" (at 119.38 135.89 0)
+    (property "Reference" "#PWR060" (at 119.38 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 134.62 0)
@@ -778,10 +782,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -790,7 +794,7 @@
   (symbol (lib_id "power:GND") (at 101.6 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c0a291f-7e18-44ed-83e3-fcb7ad9dba65)
-    (property "Reference" "#PWR?" (at 101.6 102.87 0)
+    (property "Reference" "#PWR058" (at 101.6 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 101.6 0)
@@ -806,10 +810,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -818,7 +822,7 @@
   (symbol (lib_id "Device:C") (at 116.84 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fd0201d-213d-41e6-aca1-e12ac8c11a35)
-    (property "Reference" "C?" (at 120.65 89.535 0)
+    (property "Reference" "C30" (at 120.65 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 120.65 92.075 0)
@@ -835,10 +839,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "C?") (unit 1)
+          (reference "C30") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "C10") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -847,7 +851,7 @@
   (symbol (lib_id "Device:R") (at 101.6 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f630d5e-7bff-4769-a04f-e6e515415ed1)
-    (property "Reference" "R?" (at 104.14 79.375 0)
+    (property "Reference" "R32" (at 104.14 79.375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "13.3k" (at 104.14 81.915 0)
@@ -864,10 +868,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "R?") (unit 1)
+          (reference "R32") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "R7") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -876,7 +880,7 @@
   (symbol (lib_id "Power_Management:BTS6133D") (at 165.1 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84d4fb53-2346-4d25-911e-11c8d2b3424c)
-    (property "Reference" "U?" (at 165.1 116.84 0)
+    (property "Reference" "U6" (at 165.1 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BTS6133D" (at 165.1 119.38 0)
@@ -896,10 +900,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "U?") (unit 1)
+          (reference "U6") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "U3") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -908,7 +912,7 @@
   (symbol (lib_id "Device:R") (at 113.03 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8538f17d-68e0-4ffa-8690-bfb9a614ce1a)
-    (property "Reference" "R?" (at 113.03 113.03 90)
+    (property "Reference" "R34" (at 113.03 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 113.03 115.57 90)
@@ -925,10 +929,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "R?") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "R9") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -937,7 +941,7 @@
   (symbol (lib_id "power:GND") (at 190.5 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8938648a-05fa-4005-8203-020cb5c9a7fa)
-    (property "Reference" "#PWR?" (at 190.5 135.89 0)
+    (property "Reference" "#PWR063" (at 190.5 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 134.62 0)
@@ -953,10 +957,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -965,7 +969,7 @@
   (symbol (lib_id "Device:D_Zener") (at 190.5 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cf659be-9256-4486-9d82-be0dad7fd054)
-    (property "Reference" "D?" (at 193.04 113.665 90)
+    (property "Reference" "D10" (at 193.04 113.665 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1SMA5936BT3G" (at 193.04 116.205 90)
@@ -982,10 +986,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "D?") (unit 1)
+          (reference "D10") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "D4") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -994,7 +998,7 @@
   (symbol (lib_id "Device:R") (at 153.67 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af440ce0-7167-4771-8518-495a39b0baee)
-    (property "Reference" "R?" (at 156.21 123.825 0)
+    (property "Reference" "R37" (at 156.21 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 156.21 126.365 0)
@@ -1011,10 +1015,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "R?") (unit 1)
+          (reference "R37") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "R11") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1023,7 +1027,7 @@
   (symbol (lib_id "Device:D") (at 190.5 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da7e5725-d58e-46d1-a75a-6773827c1040)
-    (property "Reference" "D?" (at 193.04 123.825 90)
+    (property "Reference" "D11" (at 193.04 123.825 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RF202LAM2STR" (at 193.04 126.365 90)
@@ -1046,10 +1050,10 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "D?") (unit 1)
+          (reference "D11") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "D5") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -1058,7 +1062,7 @@
   (symbol (lib_id "power:GND") (at 116.84 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fce1f8fc-a880-4b7e-8afc-dc74ae98aa34)
-    (property "Reference" "#PWR?" (at 116.84 102.87 0)
+    (property "Reference" "#PWR059" (at 116.84 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 101.6 0)
@@ -1074,10 +1078,39 @@
     (instances
       (project "Tattoo_Supply"
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
         (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR069") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 146.05 106.68 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fe100c74-7214-433e-8492-2034d543e1a7)
+    (property "Reference" "R36" (at 146.05 101.6 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0" (at 146.05 104.14 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 146.05 108.458 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 146.05 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f337f3e-4d1b-4588-a610-8344e389c59f))
+    (pin "2" (uuid 31a27f84-dada-4a09-ac4e-a668f445c806))
+    (instances
+      (project "Tattoo_Supply"
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/35c23473-ced5-4351-b10b-ff300d1253ee"
+          (reference "R36") (unit 1)
+        )
+        (path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/efc91527-f971-405b-8984-70ef7ae6d38c"
+          (reference "R46") (unit 1)
         )
       )
     )
