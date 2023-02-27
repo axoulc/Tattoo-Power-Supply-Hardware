@@ -133,7 +133,7 @@
           (name "VDD" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 3.81 13.97 270) (length 2.54)
+        (pin input line (at 3.81 13.97 270) (length 2.54)
           (name "VREF" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
@@ -210,6 +210,7 @@
       )
     )
   )
+
 
   (junction (at 170.18 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 54a3f6c3-4cd9-4f4f-a4aa-52bad5923941)
