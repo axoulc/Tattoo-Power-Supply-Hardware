@@ -1077,7 +1077,7 @@
     (property "Value" "Footswitch" (at 71.12 144.78 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 76.2 142.24 0)
+    (property "Footprint" "TattooSupplyFootprints:MJ63022A" (at 76.2 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 142.24 0)
