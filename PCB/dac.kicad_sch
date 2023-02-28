@@ -514,7 +514,7 @@
     (property "Value" "DNP" (at 120.65 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 126.238 93.98 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 126.238 93.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 93.98 0)

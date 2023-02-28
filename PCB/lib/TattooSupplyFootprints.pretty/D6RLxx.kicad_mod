@@ -25,6 +25,11 @@
   (pad "2" thru_hole circle (at 2.5 -2.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 3c23a61a-1a86-4f9f-9110-ca703d6ec56e))
   (pad "3" thru_hole circle (at -2.5 2.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 5192c100-29f4-4df3-9c50-931f0089f52b))
   (pad "4" thru_hole circle (at 2.5 2.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 609fd64e-8348-4d9d-bedd-17491e210d2d))
-  (pad "5" thru_hole circle (at -3.1 0) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 490ef2a7-663e-43f6-8d35-0dd2d4ed3b71))
-  (pad "6" thru_hole circle (at 3.1 0) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp a1de4ae0-e3d6-47af-b4ca-e7daa4ed9457))
+  (pad "5" thru_hole circle (at 3.1 0) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp a1de4ae0-e3d6-47af-b4ca-e7daa4ed9457))
+  (pad "6" thru_hole circle (at -3.1 0) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 490ef2a7-663e-43f6-8d35-0dd2d4ed3b71))
+  (model "${KIPRJMOD}/lib/3d_models/D6RLRDF1LFS.stp"
+    (offset (xyz 0 0 1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

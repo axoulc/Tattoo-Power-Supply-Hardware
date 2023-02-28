@@ -21,4 +21,9 @@
     (thermal_bridge_angle 45) (tstamp a67fe44e-34b8-4f85-afd2-f7e17c2fa1f0))
   (pad "2" smd rect (at 0 5.75) (size 6 3.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 74ba7664-2dae-4dc7-9580-803602d3947f))
+  (model "${KIPRJMOD}/lib/3d_models/Coilcraft-MSS1583.step"
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

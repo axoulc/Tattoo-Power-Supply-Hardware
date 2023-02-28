@@ -73,4 +73,9 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a5f41d23-1fa9-4669-84cf-5074c8ba7fdc))
   (pad "S" thru_hole rect (at 0 0) (size 3.63 3.63) (drill 2.42) (layers "*.Cu" "*.Mask") (tstamp 93d18a06-7043-44b8-8dd8-5b7856708be1))
   (pad "T" thru_hole circle (at 14.9 2.5) (size 3.63 3.63) (drill 2.42) (layers "*.Cu" "*.Mask") (tstamp 67af335d-e5be-40f9-8fec-562db78e135d))
+  (model "${KIPRJMOD}/lib/3d_models/CUI_DEVICES_MJ-63022A.step"
+    (offset (xyz 3 0 12.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
