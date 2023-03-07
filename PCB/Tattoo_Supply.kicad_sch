@@ -598,10 +598,10 @@
   )
 
   (bus_alias "SPI" (members "~{CS}" "SCK" "MOSI" "MISO"))
-  (bus_alias "USB2" (members "D+" "D-"))
   (bus_alias "UART" (members "Tx" "Rx"))
   (bus_alias "Encoder" (members "DT" "CLK" "SW"))
   (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "USB2" (members "D+" "D-"))
   (junction (at 46.99 119.38) (diameter 0) (color 0 0 0 0)
     (uuid 0122b30b-d4a4-4519-b4cb-6e89c6e1bfc8)
   )
