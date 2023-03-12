@@ -482,7 +482,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB2",
-        "pattern": "USB2"
+        "pattern": "/BUS_{USB}.*"
       }
     ]
   },
