@@ -27,6 +27,5 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-gerber/
 dxf/
 jlcpcb/
