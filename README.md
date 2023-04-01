@@ -1,5 +1,7 @@
 # Tattoo Power Supply Hardware
 
+![GitHub](https://img.shields.io/github/license/axoulc/Tattoo-Power-Supply-Hardware) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/axoulc/Tattoo-Power-Supply-Hardware)
+
 This is an open source project for a tattoo power supply circuit board. The circuit board is designed to provide power to tattoo machines, allowing artists to control the voltage and frequency of their machines for precise and consistent results.
 
 # Features
