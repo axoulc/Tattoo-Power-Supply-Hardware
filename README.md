@@ -2,6 +2,10 @@
 
 ![GitHub](https://img.shields.io/github/license/axoulc/Tattoo-Power-Supply-Hardware) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/axoulc/Tattoo-Power-Supply-Hardware)
 
+<p align="center">
+    <img src="Pictures/pcb1-min.jpg" width="350" alt="accessibility text">
+</p>
+
 This is an open source project for a tattoo power supply circuit board. The circuit board is designed to provide power to tattoo machines, allowing artists to control the voltage and frequency of their machines for precise and consistent results.
 
 # Features
@@ -24,7 +28,11 @@ To get started with this project, you will need at least KiCAD 7. You can downlo
 
 ## Case
 
-(coming soon)
+<p align="center">
+    <img src="Pictures/case4-min.jpg" width="350" alt="accessibility text">
+</p>
+
+The case is designed with FreeCAD. In `Case` folder, you will find `.FCStd` files which are source files for FreeCAD and `.3mf` files which are 3D printer ready. The shapes of the case are very simple, if you're 3D designer, make it prettier !
 
 # License
 
