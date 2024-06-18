@@ -2596,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 102.87) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e5cbee-e50d-455c-9dbd-31a73d35e6b8")
+	)
+	(wire
+		(pts
 			(xy 118.11 71.12) (xy 124.46 71.12)
 		)
 		(stroke
@@ -3863,18 +3873,6 @@
 		)
 		(uuid "692266c0-39be-41d4-8ced-79f327109077")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 208.28 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f1ec358-9f57-44e5-a7fc-2ca5eda7b891")
-	)
 	(hierarchical_label "SW1"
 		(shape output)
 		(at 208.28 91.44 0)
@@ -4910,6 +4908,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d07a9ac-18de-4809-a2c2-cee602015ab3")
+		(property "Reference" "#PWR026"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92921fbe-a6b5-4d08-8921-9aad95ee73f6")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 33.02 0)
 		(unit 1)
@@ -5343,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 203.2 107.696 90)
 			(effects
 				(font
@@ -5378,7 +5442,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3EKF1002V"
+		(property "MPN" ""
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -5387,7 +5451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" ""
 			(at 203.2 102.87 0)
 			(effects
 				(font

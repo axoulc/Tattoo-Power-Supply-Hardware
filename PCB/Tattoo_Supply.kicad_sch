@@ -5066,16 +5066,6 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{CC}" input
-			(at 123.19 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "94cc4599-5e71-4b14-ae1e-556816bd20e6")
-		)
 		(pin "V_{DAC}1" output
 			(at 134.62 73.66 0)
 			(effects
@@ -5105,6 +5095,16 @@
 				(justify left)
 			)
 			(uuid "ff53082b-8e21-431b-bc12-07d5f80e3dda")
+		)
+		(pin "3V3" input
+			(at 123.19 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fabb5c45-a43f-42b0-8f32-339ec8542f80")
 		)
 		(instances
 			(project "Tattoo_Supply"

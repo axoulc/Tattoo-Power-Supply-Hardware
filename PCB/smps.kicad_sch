@@ -141,309 +141,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -722,43 +419,36 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:LM2576S-ADJ"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "TattooSupplyLib:MP2338GTL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 6.35 0)
+				(at 0 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LM2576S-ADJ"
-				(at 0 6.35 0)
+			(property "Value" "MP2338GTL"
+				(at 0 -0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 0 -6.35 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+				(at 0.254 -16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2576.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -767,7 +457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-263"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -776,42 +466,11 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Step-Down Voltage Regulator 3A Adjustable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2576S-ADJ_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM2576S-ADJ_1_1"
-				(pin power_in line
-					(at -12.7 2.54 0)
+			(symbol "MP2338GTL_0_0"
+				(pin open_collector line
+					(at 8.89 -11.43 180)
 					(length 2.54)
-					(name "VIN"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -826,10 +485,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 -2.54 180)
+				(pin power_in line
+					(at -8.89 11.43 0)
 					(length 2.54)
-					(name "OUT"
+					(name "V_{IN}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -844,10 +503,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin power_out line
+					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "GND"
+					(name "SW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -862,10 +521,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 2.54 180)
+				(pin power_in line
+					(at -8.89 -11.43 0)
 					(length 2.54)
-					(name "FB"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -880,10 +539,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin unspecified line
+					(at 8.89 11.43 180)
 					(length 2.54)
-					(name "~{ON}/OFF"
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -896,6 +555,73 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin input line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MP2338GTL_1_1"
+				(rectangle
+					(start -6.35 13.97)
+					(end 6.35 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1094,100 +820,120 @@
 		)
 	)
 	(junction
-		(at 134.62 88.9)
+		(at 207.01 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "088c3eea-ba7e-49df-9331-87d3702bd776")
+		(uuid "28ea59c0-eb44-4432-9cf4-1a6c57f28499")
 	)
 	(junction
-		(at 158.75 88.9)
+		(at 207.01 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fb5b2b6-f8d5-48cd-9679-2b07eadbd5d2")
+		(uuid "4522410b-bda9-4f42-8f53-ee5a747c1317")
 	)
 	(junction
-		(at 191.77 88.9)
+		(at 207.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27415ecf-106d-452f-961d-0b5758f8dc60")
+		(uuid "49d268b3-39be-4026-8862-6750f8528a9f")
 	)
 	(junction
-		(at 220.98 88.9)
+		(at 242.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32dfd035-a989-4701-bbd7-3f63d82a0fa8")
+		(uuid "5aa3a82a-7331-4efa-a155-1b57638a94d9")
 	)
 	(junction
-		(at 175.26 88.9)
+		(at 232.41 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d449eeb-1152-4a1d-8295-b231f72f8306")
+		(uuid "5ee4256e-3033-4f80-8850-5e9344609909")
 	)
 	(junction
-		(at 68.58 83.82)
+		(at 167.64 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad51dfec-8280-41b6-9074-5aff852b8d83")
+		(uuid "691bf7fe-8177-4dfb-b3c8-4eee72dc6e06")
 	)
 	(junction
-		(at 220.98 100.33)
+		(at 207.01 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee29d28c-2ceb-437f-bc90-1e75e8868d49")
+		(uuid "89b76989-08ae-4017-aa25-b88775c47ef9")
+	)
+	(junction
+		(at 105.41 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9261bcfa-51dc-478e-b4de-5cc17e66b0ed")
+	)
+	(no_connect
+		(at 158.75 111.76)
+		(uuid "e381731f-00c3-4978-a9a3-f564b7462e1a")
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 134.62 105.41)
+			(xy 207.01 100.33) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01966068-ff5a-4874-8c35-b5797027ba0e")
+		(uuid "0361c0b1-4120-496c-93ce-23dce80ff21c")
 	)
 	(wire
 		(pts
-			(xy 212.09 83.82) (xy 128.27 83.82)
+			(xy 242.57 88.9) (xy 248.92 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c280eda-3725-4988-9865-81288cef0eeb")
+		(uuid "07642915-79ec-4975-b4f9-c4d32215c41a")
 	)
 	(wire
 		(pts
-			(xy 191.77 102.87) (xy 191.77 105.41)
+			(xy 207.01 104.14) (xy 207.01 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2349b156-0f25-4a3f-84c8-97d63be7c2ff")
+		(uuid "093955a6-3e81-4c45-b3c6-7a9997a7fbc6")
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 220.98 102.87)
+			(xy 190.5 88.9) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "254d14c7-5431-4c7e-aa29-9bd3be06a94c")
+		(uuid "09fd30fa-1dbc-472d-8305-1da8f0a243b2")
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 142.24 88.9)
+			(xy 127 113.03) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28484f90-60cf-4e3c-976b-7975624a4dde")
+		(uuid "17adea50-2875-46da-80bc-5a612732f01d")
 	)
 	(wire
 		(pts
-			(xy 220.98 110.49) (xy 220.98 113.03)
+			(xy 207.01 104.14) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275923cf-d901-4a63-aff9-78a895a6887e")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1197,273 +943,313 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 191.77 88.9)
+			(xy 158.75 104.14) (xy 198.12 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dd4ccf7-89c2-4819-a05c-0932f7e02bac")
+		(uuid "2ebd1748-5eb8-480b-aaa8-c289cb33136e")
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 175.26 95.25)
+			(xy 207.01 90.17) (xy 207.01 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ae98a53-1147-4d07-a4da-51d02f4b2b71")
+		(uuid "35aaf16a-8515-4215-8b89-6ea94b754ff2")
 	)
 	(wire
 		(pts
-			(xy 191.77 88.9) (xy 220.98 88.9)
+			(xy 242.57 105.41) (xy 242.57 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f3e3ea5-b738-453d-8801-8799d3142316")
+		(uuid "36b632e7-eead-4e32-b219-5fd820778f4f")
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 68.58 95.25)
+			(xy 127 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46090f23-03a9-4a06-94ec-4b718fbfad52")
+		(uuid "3c27422a-459c-413f-a215-7b4a615245a3")
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 175.26 105.41)
+			(xy 232.41 88.9) (xy 232.41 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61024a29-3981-429e-9aeb-232c6cb4cd1e")
+		(uuid "3f885695-ae9c-4fd2-998f-eaece6a501e3")
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 158.75 105.41)
+			(xy 217.17 104.14) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65700d03-704d-4fe8-9da6-59824af07208")
+		(uuid "423fea55-572b-4edc-bdda-af70f648254a")
 	)
 	(wire
 		(pts
-			(xy 220.98 85.09) (xy 220.98 88.9)
+			(xy 207.01 90.17) (xy 217.17 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "710663b7-c826-4194-8e5c-5dd1d4650855")
+		(uuid "4253f455-59b1-467c-8f3d-7c4c562ae440")
 	)
 	(wire
 		(pts
-			(xy 212.09 100.33) (xy 212.09 83.82)
+			(xy 207.01 100.33) (xy 217.17 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75926395-a1f5-4624-991b-f434b123d01f")
+		(uuid "42e10026-a223-4ee1-9e2a-4e3066de9792")
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 158.75 95.25)
+			(xy 205.74 104.14) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c842601-44e1-4d60-a253-46f85559ad4f")
+		(uuid "4792240a-45a7-403b-853d-99dcb7d9e413")
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 68.58 83.82)
+			(xy 134.62 96.52) (xy 140.97 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7df6da9f-8415-498b-bcde-c683c1f58919")
+		(uuid "483a5ef2-7061-434d-88b2-817d8443e731")
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 212.09 100.33)
+			(xy 105.41 88.9) (xy 105.41 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8418c1fc-cead-4b75-8e70-08102e23bfd7")
+		(uuid "53df7604-1e7e-48f3-bc45-aa57ec88bee0")
 	)
 	(wire
 		(pts
-			(xy 68.58 102.87) (xy 68.58 105.41)
+			(xy 177.8 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89bf5fb4-cbb8-40c6-92d6-429b5f865b67")
+		(uuid "84b37eeb-4161-48c7-be6a-d8e6dbd9a875")
 	)
 	(wire
 		(pts
-			(xy 234.95 100.33) (xy 238.76 100.33)
+			(xy 207.01 88.9) (xy 207.01 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89c8470c-b460-41c4-87c7-95cb64874387")
+		(uuid "84cd52cf-34ab-4c83-a382-15a198d571bb")
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 134.62 95.25)
+			(xy 242.57 85.09) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f23db2e-4022-460b-bbea-8a1e4add06cc")
+		(uuid "9b8714cb-50af-4441-a4c5-95f04d5b60e5")
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 102.87 83.82)
+			(xy 232.41 88.9) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a28b1e28-2d1c-400a-9bfd-f2a538b12c25")
+		(uuid "9e178fb9-617a-4360-862a-31190ff79778")
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 158.75 88.9)
+			(xy 158.75 88.9) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0b23fff-b739-46a5-a5f2-be479e4a41c4")
+		(uuid "adfe6917-cd4b-4665-98e0-30b69807a686")
 	)
 	(wire
 		(pts
-			(xy 102.87 88.9) (xy 101.6 88.9)
+			(xy 232.41 105.41) (xy 232.41 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba75e871-6e1c-40c4-89cf-08a1c1d8ee54")
+		(uuid "b3687ee0-d532-4345-af62-71337cb7b1f8")
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 134.62 88.9)
+			(xy 177.8 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba8d2720-0429-4a40-be6b-d583e849fcc2")
+		(uuid "b6d861fb-def5-40bb-bed9-a107c573741f")
 	)
 	(wire
 		(pts
-			(xy 220.98 90.17) (xy 220.98 88.9)
+			(xy 105.41 105.41) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "beb898fa-7bba-455c-ad17-f5ee7c0bf922")
+		(uuid "b9c709f0-eff7-48cb-9a91-18abc13ab88e")
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 175.26 88.9)
+			(xy 242.57 88.9) (xy 242.57 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca7fdbaf-7ef0-45ec-ae32-b7ee88bc413b")
+		(uuid "ba094da8-198f-4bcb-918d-fd1b8f84422c")
 	)
 	(wire
 		(pts
-			(xy 220.98 88.9) (xy 238.76 88.9)
+			(xy 217.17 99.06) (xy 217.17 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5c072e7-2804-470c-bf32-e007b7b731df")
+		(uuid "c673b825-6db3-49e4-80b9-30b061fcdb8c")
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 227.33 100.33)
+			(xy 127 105.41) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1f8838-03db-4fd2-8ca9-4c2231d11584")
+		(uuid "c95653d2-9ae8-436b-96a7-72720f02640b")
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 115.57 105.41)
+			(xy 207.01 99.06) (xy 207.01 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4fd5895-2d7b-4794-898b-a337e75019d0")
+		(uuid "cd974537-e79e-4a9b-8639-8d58a276f64c")
 	)
 	(wire
 		(pts
-			(xy 191.77 88.9) (xy 191.77 95.25)
+			(xy 207.01 113.03) (xy 207.01 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1fad1ae-cbaa-473f-80c6-1d6593df4bb3")
+		(uuid "cf3925c7-7d95-4229-8e27-371e07d363d8")
 	)
 	(wire
 		(pts
-			(xy 220.98 97.79) (xy 220.98 100.33)
+			(xy 158.75 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fea74d16-97b4-46e6-859a-7612d313e7ea")
+		(uuid "d837e0ef-e8ed-4b4e-ba86-0ff18ed7a4b5")
 	)
-	(text_box "For L :\nE*T=(V_{IN}-V_{OUT}*(V_{OUT}/V_{IN})*(1000/52)\nWith V_{IN} = 20V\nE*T(max) = 96.154 V*us at V_{OUT}=10V\nL = 150uH\nIl_{MAX}=1.15*3 = 3.45A "
-		(exclude_from_sim no)
-		(at 97.79 119.38 0)
-		(size 34.29 13.97)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 140.97 111.76)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(fill
-			(type none)
+		(uuid "e0f4e438-1192-440c-bb16-779b922a01a7")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 177.8 96.52)
 		)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left top)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "a4e750a1-93a6-43a9-8721-2404c1445c78")
+		(uuid "e31a9cd3-abc0-49ab-b2a6-653ae0ccbf5d")
+	)
+	(wire
+		(pts
+			(xy 69.85 88.9) (xy 105.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bb870f-b683-47c3-b534-cecfa834edbf")
+	)
+	(wire
+		(pts
+			(xy 105.41 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdfeedf-bfcf-4594-bb71-2e45a92662d6")
+	)
+	(wire
+		(pts
+			(xy 207.01 88.9) (xy 232.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed90409f-e50b-4529-88eb-61fcc39dd4bd")
+	)
+	(wire
+		(pts
+			(xy 217.17 91.44) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9283f50-bea7-4538-8394-645f774409e6")
 	)
 	(text "Check Python Notebook for Resistors calculations"
 		(exclude_from_sim no)
@@ -1476,9 +1262,19 @@
 		)
 		(uuid "412cf8b9-5373-4eb6-9ee7-db278bd92a1e")
 	)
-	(hierarchical_label "~{ON}{slash}OFF"
+	(text "I_{SAT}=3A"
+		(exclude_from_sim no)
+		(at 187.198 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be3aa040-8467-42a5-bee0-c4d086276696")
+	)
+	(hierarchical_label "ON{slash}~{OFF}"
 		(shape input)
-		(at 101.6 88.9 180)
+		(at 134.62 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1490,7 +1286,7 @@
 	)
 	(hierarchical_label "V_{OUT}"
 		(shape output)
-		(at 238.76 88.9 0)
+		(at 248.92 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1502,7 +1298,7 @@
 	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
-		(at 62.23 83.82 180)
+		(at 69.85 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1514,7 +1310,7 @@
 	)
 	(hierarchical_label "V_{Feedback}"
 		(shape input)
-		(at 238.76 100.33 0)
+		(at 219.71 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1522,20 +1318,20 @@
 			)
 			(justify left)
 		)
-		(uuid "a45f501d-e433-42c3-991f-12cac31e3b80")
+		(uuid "c1a2043a-6189-4601-a928-46001faaa07b")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 220.98 93.98 0)
+		(lib_id "Device:C")
+		(at 127 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a870a79-4320-460f-afd7-5b8aa7b0105a")
-		(property "Reference" "R13"
-			(at 223.52 92.7099 0)
+		(uuid "0b5b19a4-c51c-4349-b33a-b8e7cd02cbf4")
+		(property "Reference" "C8"
+			(at 130.81 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,8 +1339,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.45k"
-			(at 223.52 95.2499 0)
+		(property "Value" "22n"
+			(at 130.81 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,8 +1348,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.202 93.98 90)
+		(property "Footprint" ""
+			(at 127.9652 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 93.98 0)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,26 +1366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3EKF8451V"
-			(at 220.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 220.98 93.98 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,53 +1376,52 @@
 			)
 		)
 		(pin "1"
-			(uuid "9848b033-c54a-4522-aae3-568c57a2c4de")
+			(uuid "fb10dc24-13a1-4910-85fc-73fc2a6fcf1b")
 		)
 		(pin "2"
-			(uuid "f1f049e7-9030-49c1-955a-4f0133f44589")
+			(uuid "d25bba89-75df-45d2-9036-f926827a1c85")
 		)
 		(instances
-			(project "Tattoo_Supply"
+			(project ""
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "R13")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "R26")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 105.41 0)
+		(lib_id "TattooSupplyLib:MP2338GTL")
+		(at 149.86 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "209d5f48-9dee-4bd0-b02d-227aeb5c4318")
-		(property "Reference" "#PWR028"
-			(at 134.62 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 110.49 0)
+		(uuid "12287626-6f02-4e99-83e4-a935070e9778")
+		(property "Reference" "U4"
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 105.41 0)
+		(property "Value" "MP2338GTL"
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+			(at 150.114 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 105.41 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1439,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 105.41 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,201 +1447,32 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a478eb41-6ee5-4d80-b4bc-4b4995095d78")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36c6f7fa-62ee-4a9e-b28b-a99c104b8804")
-		(property "Reference" "R15"
-			(at 231.14 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.65k"
-			(at 231.14 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3EKF1651V"
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9b132fc-95d6-489d-add0-efba9558b9c5")
-		)
-		(pin "2"
-			(uuid "a8936d17-d322-4c5b-b043-66c1168e9201")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM2576S-ADJ")
-		(at 115.57 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3734a769-29a5-4aca-94e3-fcaa690a41b0")
-		(property "Reference" "U2"
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2576S-ADJ"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 115.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2576.pdf"
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LM2576D2T-ADJR4G"
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Onsemi"
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca63ea94-140a-4e88-8620-7fa3b3d3897e")
-		)
-		(pin "2"
-			(uuid "33076711-d92b-4a71-a67e-470b0e3141a4")
-		)
-		(pin "3"
-			(uuid "1553d849-08e7-4ca8-9657-11dc131fd7a1")
+		(pin "7"
+			(uuid "10856cb6-6d39-4465-bca2-dc627d1bb002")
 		)
 		(pin "4"
-			(uuid "73b1f096-b664-4da1-bbfb-653738dc8ed0")
+			(uuid "28bce047-dfc2-40e0-8939-7c582339e35e")
+		)
+		(pin "6"
+			(uuid "b4d409a4-a229-405a-a06d-4f453f61ce44")
 		)
 		(pin "5"
-			(uuid "20467ebc-d7fd-49a6-8167-c9d33b740b7e")
+			(uuid "832d53c2-082a-45b0-bbe6-423a097c5789")
+		)
+		(pin "8"
+			(uuid "1a400321-c248-41a8-a549-7049d33707ac")
+		)
+		(pin "3"
+			(uuid "5486ef40-6a15-4b36-82a1-0cf339c41e92")
+		)
+		(pin "1"
+			(uuid "2ae1b841-1030-49a1-a55b-926e2b5faa35")
+		)
+		(pin "2"
+			(uuid "313a75b7-7bba-46c8-a1e8-a715a49b3e2f")
 		)
 		(instances
-			(project "Tattoo_Supply"
+			(project ""
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
 					(reference "U2")
 					(unit 1)
@@ -1877,105 +1485,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 191.77 105.41 0)
+		(lib_id "Device:R")
+		(at 207.01 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50284b05-6e02-40f9-b483-7583d6b2aae0")
-		(property "Reference" "#PWR031"
-			(at 191.77 111.76 0)
+		(uuid "2aee4621-38ee-4dbb-ab35-3c3e5b576b6d")
+		(property "Reference" "R14"
+			(at 200.406 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 191.77 110.49 0)
+		(property "Value" "562k"
+			(at 200.406 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46752b57-10c0-4b22-8183-de502ca2300c")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 134.62 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "542b5997-5523-4b73-a962-b550c1a2d61d")
-		(property "Reference" "D6"
-			(at 137.16 97.4724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMEG4050EP,115"
-			(at 137.16 100.0124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-128"
-			(at 134.62 99.06 0)
+			(at 205.232 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 99.06 0)
+			(at 207.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,231 +1529,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 99.06 0)
+		(property "Description" "Resistor"
+			(at 207.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "PMEG4050EP,115"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4b230da-0395-4273-86c7-b7e21b72a8dc")
 		)
 		(pin "2"
-			(uuid "00863d3f-cdf5-4f0d-a696-ecd6f1f3bf8b")
+			(uuid "fa39b44a-a2b9-4642-8028-04c52f06852e")
+		)
+		(pin "1"
+			(uuid "f4484a03-0a84-48f5-a867-07507c569d17")
 		)
 		(instances
-			(project "Tattoo_Supply"
+			(project ""
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "D6")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 175.26 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56e5b6f7-f73d-474d-927a-f2ccdb35c234")
-		(property "Reference" "C9"
-			(at 179.07 96.9009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u/35V"
-			(at 179.07 99.4409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 176.2252 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EMZS350ARA471MHA0G"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "United Chemi-Con "
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2050feb-cb80-45f4-84d6-a9b570ac7ab1")
-		)
-		(pin "2"
-			(uuid "47d50756-3ed7-442b-bbce-ccec2d466eca")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "C9")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 68.58 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59aca0d5-fb73-446c-8044-31b5ea1b27e3")
-		(property "Reference" "C7"
-			(at 72.39 96.9009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u/35V"
-			(at 72.39 99.4409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 69.5452 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "865080545012"
-			(at 68.58 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 68.58 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08c7eacc-0b74-4752-abf4-24a6af48911b")
-		)
-		(pin "2"
-			(uuid "ee08739e-8609-4b09-9f96-00e130a753cd")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "C21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2224,16 +1559,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 106.68 0)
+		(at 207.01 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69cdcc3a-71ff-4d22-b373-8d0bfabffda2")
-		(property "Reference" "R14"
-			(at 223.52 105.4099 0)
+		(uuid "4b149497-5dcc-45cd-b30f-55e51a0e9e12")
+		(property "Reference" "R15"
+			(at 208.534 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,8 +1575,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 223.52 107.9499 0)
+		(property "Value" "21.5k"
+			(at 208.534 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,8 +1584,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.202 106.68 90)
+		(property "Footprint" ""
+			(at 205.232 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +1594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 106.68 0)
+			(at 207.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,47 +1602,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 106.68 0)
+		(property "Description" "Resistor"
+			(at 207.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "ERJ-3EKF1001V"
-			(at 220.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 220.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef36bf9d-64c3-483c-aee8-a59a9adf03d7")
 		)
 		(pin "2"
-			(uuid "0cfff160-61a1-4c96-ba87-bbd2f8ce2f8b")
+			(uuid "8dde2d3c-b639-493a-b84b-210e6b33fccb")
+		)
+		(pin "1"
+			(uuid "88bb89ba-5821-43e8-9c75-7fd4eb332d3f")
 		)
 		(instances
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "R27")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2316,16 +1632,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 105.41 0)
+		(at 207.01 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e2f87e8-4322-4c83-993d-abf7d7702da7")
-		(property "Reference" "#PWR026"
-			(at 68.58 111.76 0)
+		(uuid "53293d81-7968-4ac7-a80c-fb7538d719a1")
+		(property "Reference" "#PWR048"
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +1650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 110.49 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +1658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 105.41 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +1667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 105.41 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +1676,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 105.41 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,152 +1685,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "357eb2a0-a898-4f35-a9e1-56c3c6dbbfee")
+			(uuid "af17b2f2-83e4-45de-9674-c8d8457ef70f")
 		)
 		(instances
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "739a57d0-cd48-4cfe-b3e1-84199a8baf62")
-		(property "Reference" "#PWR029"
-			(at 158.75 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb970cd8-0d9c-42ab-8c74-fca5cc3749a4")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77b63d23-f170-48cc-a46d-23cf019b78ad")
-		(property "Reference" "#PWR030"
-			(at 175.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "842aff1a-824f-432a-b299-076480177757")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
@@ -2526,32 +1702,32 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 146.05 88.9 90)
+		(at 186.69 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "80b6b717-6ddb-483c-9ccb-7af1ed6ced4f")
-		(property "Reference" "L1"
-			(at 146.05 82.55 90)
+		(uuid "6071f4eb-8671-409d-8105-96e61a50cd2c")
+		(property "Reference" "L2"
+			(at 186.69 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MSS1583-154KED"
-			(at 146.05 85.09 90)
+		(property "Value" "100u"
+			(at 186.69 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TattooSupplyFootprints:MSS1583"
-			(at 146.05 88.9 0)
+		(property "Footprint" ""
+			(at 186.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +1736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 88.9 0)
+			(at 186.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,41 +1744,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.05 88.9 0)
+		(property "Description" "Inductor"
+			(at 186.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "MSS1583-154KED "
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Coilcraft"
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11e30ec9-b11f-4f5b-9f0f-80f0166f769e")
 		)
 		(pin "2"
-			(uuid "9017e3e0-c1ef-47f3-a4f3-3ec7a17fa8f6")
+			(uuid "29be5611-ed4f-4d7a-a74e-d5e66d8101f2")
+		)
+		(pin "1"
+			(uuid "7da571cc-94b4-4dbd-a0ad-f3343842cb07")
 		)
 		(instances
-			(project "Tattoo_Supply"
+			(project ""
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
 					(reference "L1")
 					(unit 1)
@@ -2616,16 +1774,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 105.41 0)
+		(at 242.57 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92e2621e-1d94-4672-aa9c-724bd8707c89")
-		(property "Reference" "#PWR027"
-			(at 115.57 111.76 0)
+		(uuid "66960c6a-f888-498d-8bb8-048391718e41")
+		(property "Reference" "#PWR031"
+			(at 242.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +1792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 110.49 0)
+			(at 242.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +1800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 105.41 0)
+			(at 242.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 105.41 0)
+			(at 242.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +1818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 105.41 0)
+			(at 242.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,16 +1827,309 @@
 			)
 		)
 		(pin "1"
-			(uuid "32f69cda-0f52-4c07-86fa-ded8a81d041f")
+			(uuid "6abc3fdc-7e95-44f7-a968-c0c3583fa68c")
 		)
 		(instances
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "#PWR046")
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7393be7e-43f2-4252-a144-b9ef85a5926b")
+		(property "Reference" "C42"
+			(at 109.22 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 109.22 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.3752 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c37195a-e3d3-4bc0-826a-1cb35441030f")
+		)
+		(pin "2"
+			(uuid "a44054c7-6615-4a42-b331-94825388b06b")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84769b04-6478-4ba2-a65b-abe6eb75b898")
+		(property "Reference" "C23"
+			(at 246.38 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 246.38 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.5352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9ba4885-dc97-4112-956c-308a1b2d3c15")
+		)
+		(pin "2"
+			(uuid "76c8ece9-cfae-42ee-b3a2-02b8799c3f7f")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89cce863-f61b-474c-a64e-3441efc94e48")
+		(property "Reference" "C9"
+			(at 171.45 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 171.45 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.6052 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b0044a-d7a3-41b8-bcdd-ab76b4f17225")
+		)
+		(pin "2"
+			(uuid "72e1c6d0-fede-4140-bceb-39641cd644d9")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b3c6e7c-05ec-4da2-834e-e97d37c873a5")
+		(property "Reference" "R26"
+			(at 201.93 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 201.93 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ce742d7-35eb-4f99-b79d-829524ecb2cc")
+		)
+		(pin "1"
+			(uuid "8400b232-70bd-4f82-b3c8-73fe39fdf3a1")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2686,16 +2137,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 113.03 0)
+		(at 105.41 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1d808bc-dda0-4732-8ccc-96778c209527")
-		(property "Reference" "#PWR032"
-			(at 220.98 119.38 0)
+		(uuid "a5adc890-e741-425f-b7b8-7e58d1cf0106")
+		(property "Reference" "#PWR046"
+			(at 105.41 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 118.11 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 113.03 0)
+			(at 105.41 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 113.03 0)
+			(at 105.41 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2181,147 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 113.03 0)
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff5c7e4-8682-4141-90d0-1b6f8bc8dce0")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7cf2ff-c8de-40de-bec3-a9a45e467c5c")
+		(property "Reference" "#PWR029"
+			(at 232.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4eb3dc8-be01-4bec-aa05-291cfd00010b")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d808bc-dda0-4732-8ccc-96778c209527")
+		(property "Reference" "#PWR032"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,35 +2346,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 158.75 99.06 0)
+		(lib_id "power:GND")
+		(at 127 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c91fc11c-ab73-413f-9ad8-e9aebe7918a4")
-		(property "Reference" "C8"
-			(at 162.56 96.9009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u/35V"
-			(at 162.56 99.4409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 159.7152 102.87 0)
+		(uuid "c11593a0-c339-4bee-ade5-1162ebbd86db")
+		(property "Reference" "#PWR027"
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,8 +2364,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 158.75 99.06 0)
+		(property "Value" "GND"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,25 +2391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EMZS350ARA471MHA0G"
-			(at 158.75 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "United Chemi-Con "
-			(at 158.75 99.06 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,19 +2400,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6967f859-f17c-4538-a508-82c4663a5a6d")
-		)
-		(pin "2"
-			(uuid "6d72271d-10e3-45c3-aa3c-efa179b99e32")
+			(uuid "c076713d-2527-41d3-b7fa-5a7c4922052c")
 		)
 		(instances
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "C8")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "C22")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2417,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 220.98 85.09 0)
+		(at 242.57 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2857,7 +2426,7 @@
 		(fields_autoplaced yes)
 		(uuid "d62452d9-95b0-40e4-9918-9bdef1bc9464")
 		(property "Reference" "#FLG07"
-			(at 220.98 83.185 0)
+			(at 242.57 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2435,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 220.98 81.28 0)
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 85.09 0)
+			(at 242.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 85.09 0)
+			(at 242.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 85.09 0)
+			(at 242.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,16 +2487,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 99.06 0)
+		(at 217.17 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc27a435-1b71-49b5-90fc-3605368f8a1a")
-		(property "Reference" "C10"
-			(at 195.58 97.7899 0)
+		(uuid "e4632e87-66dc-46d4-86b1-75ffde071238")
+		(property "Reference" "C44"
+			(at 220.98 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,8 +2504,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 195.58 100.3299 0)
+		(property "Value" "82p"
+			(at 220.98 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,8 +2513,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 192.7352 102.87 0)
+		(property "Footprint" ""
+			(at 218.1352 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 99.06 0)
+			(at 217.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,26 +2531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CGA3E1X7R1V105K080AC"
-			(at 191.77 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 191.77 99.06 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,19 +2541,164 @@
 			)
 		)
 		(pin "1"
-			(uuid "a07fee2e-8ec9-463b-a7b7-af7f05edbef8")
+			(uuid "7d796b51-b3ae-47f4-9d3f-2e4defe0858c")
 		)
 		(pin "2"
-			(uuid "a2c63e2b-853b-4920-82fc-084fc3db38ef")
+			(uuid "ecd00b16-4ae7-4cf6-a1f4-75593e9b47a9")
 		)
 		(instances
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
-					(reference "C10")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
-					(reference "C24")
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4daa26d-484a-4ee9-b6b1-c23cc5ca8b3f")
+		(property "Reference" "R28"
+			(at 213.36 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "127k"
+			(at 213.36 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f62c428-78eb-42b5-a788-e9c07b42c51f")
+		)
+		(pin "1"
+			(uuid "c4bccfe4-94e2-434a-9e32-8c5618a85310")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f41d8df2-08ce-4cdc-ad0b-c1b6cfad6387")
+		(property "Reference" "C22"
+			(at 236.22 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 236.22 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.3752 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed7b19fb-1380-4fc0-b092-8f3c1778fe68")
+		)
+		(pin "2"
+			(uuid "8159c7be-a273-4e4b-9c75-838946e5e924")
+		)
+		(instances
+			(project ""
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/0bfe1b8d-2b80-49bc-95c3-66c860b9d04a"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/ceea0ffd-34e8-4863-a5ab-807ee81bbc9d"
+					(reference "C22")
 					(unit 1)
 				)
 			)

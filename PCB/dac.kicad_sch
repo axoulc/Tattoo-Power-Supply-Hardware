@@ -1185,7 +1185,7 @@
 		)
 		(uuid "1bf38f43-cbef-4c3c-99a5-5205689f58c4")
 	)
-	(hierarchical_label "V_{CC}"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 149.86 73.66 90)
 		(fields_autoplaced yes)
