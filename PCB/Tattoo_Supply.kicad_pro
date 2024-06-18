@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|80370000|56876000|ba7e259b-0033-45d8-b761-04bbd09c1c67|22ec5cb4-07a0-4a78-91a9-434d817de5e2",
-        "hole_clearance|80370000|56876000|ba7e259b-0033-45d8-b761-04bbd09c1c67|ed6689d6-11ec-4b7f-83be-18725c77a55c",
-        "hole_clearance|80570000|56876000|ba7e259b-0033-45d8-b761-04bbd09c1c67|01054704-9798-425b-9d8c-c3db7e2d97fc",
-        "hole_clearance|80570000|56876000|ba7e259b-0033-45d8-b761-04bbd09c1c67|03c74dae-9aeb-4a83-9a04-3633277b6553",
-        "hole_clearance|85970000|56876000|9443e135-9e36-4e05-9533-f8795f66c6ba|1bb89cd7-eeae-4c5b-845f-c4959e13deac",
-        "hole_clearance|85970000|56876000|9443e135-9e36-4e05-9533-f8795f66c6ba|3fd321c8-a97c-4902-b842-7879caae1aec",
-        "hole_clearance|86170000|56876000|9443e135-9e36-4e05-9533-f8795f66c6ba|1ef89293-3e4c-4489-b437-afea17de8482",
-        "hole_clearance|86170000|56876000|9443e135-9e36-4e05-9533-f8795f66c6ba|d5ffe393-d833-445e-aa07-b9bab233ae40"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -721,8 +712,12 @@
       "Out Power Control 2"
     ],
     [
-      "9ccf1c84-45f7-49b9-b4ff-bf54fcd01693",
-      "IO"
+      "5d685761-471a-4160-a67e-0a366fd6a54a",
+      "Flash"
+    ],
+    [
+      "00309925-87b8-40cf-baeb-9976b44fe471",
+      "EEPROM"
     ]
   ],
   "text_variables": {}
