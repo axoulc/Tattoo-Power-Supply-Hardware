@@ -1382,9 +1382,6 @@
 			)
 		)
 	)
-	(bus_alias "Encoder"
-		(members "DT" "CLK" "SW")
-	)
 	(bus_alias "I2C"
 		(members "SDA" "SCL")
 	)
