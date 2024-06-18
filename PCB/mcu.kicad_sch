@@ -1622,6 +1622,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1895,14 +2040,6 @@
 		(at 175.26 147.32)
 		(uuid "94275982-eb79-4958-b001-4b14f54fc92c")
 	)
-	(no_connect
-		(at 27.94 97.79)
-		(uuid "f24309a6-9b9a-429e-915a-4d29eb1906fe")
-	)
-	(no_connect
-		(at 86.36 172.72)
-		(uuid "f8f8b2d6-5771-4686-ba4f-ec55e53f1a0c")
-	)
 	(bus_entry
 		(at 93.98 134.62)
 		(size 2.54 2.54)
@@ -2079,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 81.28) (xy 124.46 81.28)
+			(xy 113.03 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2419,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 100.33) (xy 53.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad52cc8-3411-4657-acfc-5bfeac6dfc6b")
+	)
+	(wire
+		(pts
 			(xy 175.26 99.06) (xy 198.12 99.06)
 		)
 		(stroke
@@ -2446,6 +2593,16 @@
 			(type default)
 		)
 		(uuid "4f22b856-9753-4b94-8ec4-7b16b2eee583")
+	)
+	(wire
+		(pts
+			(xy 118.11 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5347108e-7deb-402c-901e-d76a0445a2a7")
 	)
 	(wire
 		(pts
@@ -2709,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 85.09) (xy 53.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c7cfe1-57c6-4a2f-b2ce-ce4f2825608a")
+	)
+	(wire
+		(pts
 			(xy 229.87 38.1) (xy 240.03 38.1)
 		)
 		(stroke
@@ -2829,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 115.57 73.66)
+			(xy 119.38 73.66) (xy 113.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 73.66) (xy 107.95 73.66)
+			(xy 96.52 73.66) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 107.95 81.28)
+			(xy 96.52 81.28) (xy 105.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3523,6 +3690,17 @@
 		)
 		(uuid "c118c274-bf7b-4c2e-b497-a415221bc9f8")
 	)
+	(label "RUN"
+		(at 118.11 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ceb3651a-0a9e-4a4a-969a-610e2762845a")
+	)
 	(label "FLASH.IO1"
 		(at 106.68 96.52 180)
 		(fields_autoplaced yes)
@@ -3533,6 +3711,17 @@
 			(justify right bottom)
 		)
 		(uuid "dbbe02fa-9d81-4a9a-8168-89b9ff53356e")
+	)
+	(label "RUN"
+		(at 53.34 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6f4b421-a467-420b-9afc-bd02e96343a2")
 	)
 	(label "FLASH.IO2"
 		(at 106.68 99.06 180)
@@ -4216,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 81.28 270)
+		(at 109.22 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4224,7 +4413,7 @@
 		(dnp no)
 		(uuid "1d4a697d-44c5-4b70-85cc-b197ab89f020")
 		(property "Reference" "R25"
-			(at 111.76 76.454 90)
+			(at 109.22 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4421,7 @@
 			)
 		)
 		(property "Value" "27.4"
-			(at 111.76 78.994 90)
+			(at 109.22 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4429,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 79.502 90)
+			(at 109.22 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 81.28 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 81.28 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4456,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 111.76 81.28 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4465,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 111.76 81.28 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,6 +5412,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 53.34 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82adb6a0-2673-4b5e-90a5-ecc68f14abfe")
+		(property "Reference" "SW2"
+			(at 57.15 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Reset"
+			(at 57.15 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-P2602W"
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "774a1b91-e105-44f5-80b8-c9815480b265")
+		)
+		(pin "2"
+			(uuid "97923d52-d75b-4c95-b8d0-507d92d566fa")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 54.61 0)
 		(unit 1)
@@ -5378,7 +5655,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 73.66 270)
+		(at 109.22 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5386,7 +5663,7 @@
 		(dnp no)
 		(uuid "98997c62-6d40-42e6-adf9-7d7cfb319a8c")
 		(property "Reference" "R22"
-			(at 112.014 68.834 90)
+			(at 109.474 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5671,7 @@
 			)
 		)
 		(property "Value" "27.4"
-			(at 112.014 71.374 90)
+			(at 109.474 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5679,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 71.882 90)
+			(at 109.22 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 73.66 0)
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 73.66 0)
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5706,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 111.76 73.66 0)
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5715,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 111.76 73.66 0)
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,6 +6515,72 @@
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18a3712-6fd2-4ae5-9b93-8edc15cd7614")
+		(property "Reference" "#PWR076"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9817632-b1d0-4faa-8b55-044293c4c123")
+		)
+		(instances
+			(project "Tattoo_Supply"
+				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
