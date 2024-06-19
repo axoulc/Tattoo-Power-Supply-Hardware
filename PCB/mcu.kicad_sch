@@ -3583,6 +3583,7 @@
 	)
 	(label "SWD.SWDIO"
 		(at 106.68 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,6 +3638,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 106.68 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

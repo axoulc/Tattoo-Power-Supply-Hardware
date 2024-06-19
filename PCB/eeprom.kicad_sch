@@ -610,18 +610,6 @@
 		)
 		(uuid "e7aeaf46-aa8a-46f4-87f8-1efe1174802b")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 107.95 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c796b5e-1da2-4fa5-a318-e6bb530fef87")
-	)
 	(hierarchical_label "I2C{I2C}"
 		(shape bidirectional)
 		(at 116.84 86.36 180)

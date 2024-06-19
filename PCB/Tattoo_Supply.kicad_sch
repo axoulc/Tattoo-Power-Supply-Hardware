@@ -1585,6 +1585,16 @@
 		)
 		(uuid "02246ea2-a256-4b95-9eb9-b1dfe3d963af")
 	)
+	(bus
+		(pts
+			(xy 232.41 140.97) (xy 236.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04620fca-c223-43e9-929c-bfa87377d391")
+	)
 	(wire
 		(pts
 			(xy 71.12 171.45) (xy 71.12 173.99)
@@ -1724,16 +1734,6 @@
 			(type default)
 		)
 		(uuid "46b3a324-06e9-48af-8723-d9d605bd5e50")
-	)
-	(bus
-		(pts
-			(xy 238.76 160.02) (xy 238.76 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495c63e3-b7f7-4cbe-81ef-9e0d5042eb4c")
 	)
 	(wire
 		(pts
@@ -2245,16 +2245,6 @@
 		)
 		(uuid "e62a0e00-1d3b-4c0e-8d26-afb790d7d6d8")
 	)
-	(bus
-		(pts
-			(xy 238.76 140.97) (xy 236.22 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7cbc172-b498-4f43-a2d5-340441e50ad4")
-	)
 	(wire
 		(pts
 			(xy 140.97 143.51) (xy 144.78 143.51)
@@ -2391,7 +2381,7 @@
 		(uuid "3d18d575-e9e4-46b3-a957-ecca708d7023")
 	)
 	(label "BUS_{I2C}{I2C}"
-		(at 238.76 160.02 180)
+		(at 232.41 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
