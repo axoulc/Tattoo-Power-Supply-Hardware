@@ -1463,6 +1463,16 @@
 		)
 		(uuid "6546c420-ac4e-4364-8112-092f4d85c77d")
 	)
+	(text "TPS25974ARPWR"
+		(exclude_from_sim no)
+		(at 137.668 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "872c88e6-fd72-4de6-80f5-36f94fd57dea")
+	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
 		(at 87.63 73.66 180)
