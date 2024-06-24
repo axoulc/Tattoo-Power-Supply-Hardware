@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 93.98) (xy 190.5 93.98)
+			(xy 175.26 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2576,16 +2576,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 208.28 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cdb95d2-7068-4453-986d-125480b6ab30")
-	)
-	(wire
-		(pts
 			(xy 240.03 38.1) (xy 240.03 40.64)
 		)
 		(stroke
@@ -2683,16 +2673,6 @@
 			(type default)
 		)
 		(uuid "66c2dbd2-6f87-478b-8120-e87d7e972b1d")
-	)
-	(wire
-		(pts
-			(xy 198.12 93.98) (xy 208.28 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ca69bd-1b3a-4548-8b93-58a536a8f1c5")
 	)
 	(wire
 		(pts
@@ -3346,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 190.5 91.44)
+			(xy 175.26 91.44) (xy 181.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3877,7 +3857,7 @@
 	)
 	(hierarchical_label "SW1"
 		(shape output)
-		(at 208.28 91.44 0)
+		(at 181.61 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3937,7 +3917,7 @@
 	)
 	(hierarchical_label "SW2"
 		(shape output)
-		(at 208.28 93.98 0)
+		(at 181.61 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6502,91 +6482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 194.31 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7fa5f6d-1fe1-4d75-a296-daf3a3ea18c5")
-		(property "Reference" "R24"
-			(at 199.136 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 194.31 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.31 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3EKF20R0V"
-			(at 194.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 194.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "812397b2-6d16-4aaa-a70d-4ff3f0a90469")
-		)
-		(pin "2"
-			(uuid "84b520ae-317b-4c69-9cd6-f0fd8a0b7c05")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 100.33 0)
 		(unit 1)
@@ -6736,91 +6631,6 @@
 			(project "Tattoo_Supply"
 				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 194.31 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa449a82-c0db-414c-9142-2e1aec3df6db")
-		(property "Reference" "R23"
-			(at 199.136 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 194.31 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.31 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3EKF20R0V"
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6298c28e-f306-4b26-8686-da8c14f1dbdc")
-		)
-		(pin "2"
-			(uuid "d9aa8503-564b-4a6c-a9f0-e73a099493f5")
-		)
-		(instances
-			(project "Tattoo_Supply"
-				(path "/036b57f3-323c-4da7-bad2-1c27fa1415e1/fd65dc63-1d27-4821-ae4f-326fe3a44815"
-					(reference "R23")
 					(unit 1)
 				)
 			)
